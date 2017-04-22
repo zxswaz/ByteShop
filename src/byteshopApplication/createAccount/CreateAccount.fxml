@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="byteshopApplication.createAccount.CreateAccountController">
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="696.0" layoutY="365.0" text="First Name" />
+            <TextField fx:id="firstName" layoutX="696.0" layoutY="382.0" prefHeight="25.0" prefWidth="243.0" />
+            <Label layoutX="982.0" layoutY="365.0" text="Last Name" />
+            <TextField fx:id="lastName" layoutX="982.0" layoutY="382.0" prefHeight="25.0" prefWidth="243.0" />
+            <Label layoutX="696.0" layoutY="428.0" text="Username" />
+            <TextField fx:id="username" layoutX="696.0" layoutY="445.0" prefHeight="25.0" prefWidth="243.0" />
+            <Label layoutX="982.0" layoutY="428.0" text="Email" />
+            <TextField fx:id="email" layoutX="982.0" layoutY="445.0" prefHeight="25.0" prefWidth="243.0" />
+            <Label layoutX="696.0" layoutY="489.0" text="Password" />
+            <Label layoutX="982.0" layoutY="489.0" text="Re-Enter Password" />
+            <Label layoutX="696.0" layoutY="551.0" text="Street Address" />
+            <TextField fx:id="streetAddress" layoutX="696.0" layoutY="568.0" prefHeight="25.0" prefWidth="243.0" />
+            <Label layoutX="982.0" layoutY="551.0" text="City" />
+            <TextField fx:id="city" layoutX="982.0" layoutY="568.0" prefHeight="25.0" prefWidth="243.0" />
+            <Label layoutX="982.0" layoutY="613.0" text="Zip Code" />
+            <TextField fx:id="zipCode" layoutX="982.0" layoutY="630.0" prefHeight="25.0" prefWidth="243.0" />
+            <Label layoutX="696.0" layoutY="613.0" text="State" />
+            <ChoiceBox fx:id="states" layoutX="696.0" layoutY="630.0" prefHeight="25.0" prefWidth="243.0" />
+            <Button layoutX="878.0" layoutY="691.0" mnemonicParsing="false" onAction="#goCreated" prefHeight="24.0" prefWidth="208.0" text="Create Account" />
+            <PasswordField fx:id="password" layoutX="696.0" layoutY="506.0" prefHeight="25.0" prefWidth="243.0" />
+            <PasswordField fx:id="passwordCheck" layoutX="982.0" layoutY="506.0" prefHeight="25.0" prefWidth="243.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

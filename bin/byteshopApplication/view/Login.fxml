@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="byteshopApplication.view.LoginController">
+   <center>
+      <Pane BorderPane.alignment="CENTER">
+         <children>
+            <Button layoutX="818.0" layoutY="617.0" mnemonicParsing="false" onAction="#goLogin" prefHeight="30.0" prefWidth="132.0" text="Login" />
+            <Label layoutX="781.0" layoutY="570.0" prefHeight="17.0" prefWidth="77.0" text="Password">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="868.0" layoutY="433.0" text="Byteshop">
+               <font>
+                  <Font size="48.0" />
+               </font>
+            </Label>
+            <Label layoutX="781.0" layoutY="529.0" prefHeight="27.0" prefWidth="83.0" text="Username">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" layoutX="884.0" layoutY="530.0" prefHeight="25.0" prefWidth="255.0" />
+            <Button layoutX="979.0" layoutY="617.0" mnemonicParsing="false" onAction="#goCreateAccount" prefHeight="30.0" prefWidth="132.0" text="Create Account" />
+            <PasswordField fx:id="password" layoutX="884.0" layoutY="571.0" prefHeight="25.0" prefWidth="255.0" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>
