@@ -53,7 +53,7 @@
                   <Image url="@mac.png" />
                </image></ImageView>
             <Label layoutX="110.0" layoutY="325.0" prefHeight="40.0" prefWidth="300.0" text="PearMac i7                                                           $700.00" />
-            <Button layoutX="110.0" layoutY="375.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="110.0" layoutY="375.0" mnemonicParsing="false" onAction="#onAdd1" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -63,7 +63,7 @@
                   <Image url="@mac.png" />
                </image></ImageView>
             <Label layoutX="460.0" layoutY="325.0" prefHeight="40.0" prefWidth="300.0" text="PearMac i5                                                           $500.00" />
-            <Button layoutX="460.0" layoutY="375.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="460.0" layoutY="375.0" mnemonicParsing="false" onAction="#onAdd2" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -73,7 +73,7 @@
                   <Image url="@pearpod.PNG" />
                </image></ImageView>
             <Label layoutX="810.0" layoutY="325.0" prefHeight="40.0" prefWidth="300.0" text="PearPods                                                                $50.00" />
-            <Button layoutX="810.0" layoutY="375.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="810.0" layoutY="375.0" mnemonicParsing="false" onAction="#onAdd3" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -83,7 +83,7 @@
                   <Image url="@pearpod.jpeg" />
                </image></ImageView>
             <Label layoutX="1160.0" layoutY="325.0" prefHeight="40.0" prefWidth="300.0" text="PearPods2                                                             $100.00" />
-            <Button layoutX="1160.0" layoutY="375.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="1160.0" layoutY="375.0" mnemonicParsing="false" onAction="#onAdd4" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -93,7 +93,7 @@
                   <Image url="@pearPhone.jpg" />
                </image></ImageView>
             <Label layoutX="1510.0" layoutY="325.0" prefHeight="40.0" prefWidth="300.0" text="PearPhone                                                            $300.00" />
-            <Button layoutX="1510.0" layoutY="375.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="1510.0" layoutY="375.0" mnemonicParsing="false" onAction="#onAdd5" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -103,7 +103,7 @@
                   <Image url="@pearphone2.PNG" />
                </image></ImageView>
             <Label layoutX="110.0" layoutY="736.0" prefHeight="40.0" prefWidth="300.0" text="PearPhoneZ                                                          $400.00" />
-            <Button layoutX="110.0" layoutY="786.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="110.0" layoutY="786.0" mnemonicParsing="false" onAction="#onAdd6" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -113,7 +113,7 @@
                   <Image url="@earphones.jpg" />
                </image></ImageView>
             <Label layoutX="460.0" layoutY="736.0" prefHeight="40.0" prefWidth="300.0" text="EarPears                                                                 $30.00" />
-            <Button layoutX="460.0" layoutY="786.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="460.0" layoutY="786.0" mnemonicParsing="false" onAction="#onAdd7" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -123,7 +123,7 @@
                   <Image url="@ppear.jpeg" />
                </image></ImageView>
             <Label layoutX="810.0" layoutY="736.0" prefHeight="40.0" prefWidth="300.0" text="AirEarPears                                                             $70.00" />
-            <Button layoutX="810.0" layoutY="786.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="810.0" layoutY="786.0" mnemonicParsing="false" onAction="#onAdd8" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -133,7 +133,7 @@
                   <Image url="@pearlap.jpg" />
                </image></ImageView>
             <Label layoutX="1160.0" layoutY="736.0" prefHeight="40.0" prefWidth="300.0" text="PearLaptop  i7                                                      $800.00" />
-            <Button layoutX="1160.0" layoutY="786.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="1160.0" layoutY="786.0" mnemonicParsing="false" onAction="#onAdd9" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
@@ -143,7 +143,7 @@
                   <Image url="@pearlaptop.jpg" />
                </image></ImageView>
             <Label layoutX="1510.0" layoutY="736.0" prefHeight="40.0" prefWidth="300.0" text="PearLaptop i3                                                       $400.00" />
-            <Button layoutX="1510.0" layoutY="786.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
+            <Button layoutX="1510.0" layoutY="786.0" mnemonicParsing="false" onAction="#onAdd10" prefHeight="25.0" prefWidth="300.0" text="Add to Cart">
                <font>
                   <Font size="14.0" />
                </font>
