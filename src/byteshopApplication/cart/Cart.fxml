@@ -18,7 +18,7 @@
                 <TableColumn prefWidth="75.3333740234375" />
                   <TableColumn prefWidth="455.333251953125" text="Item" />
                   <TableColumn prefWidth="133.333251953125" text="Quantity" />
-                  <TableColumn prefWidth="176.666748046875" text="Column X" />
+                  <TableColumn prefWidth="176.666748046875" text="Price" />
               </columns>
             </TableView>
             <Label layoutX="969.0" layoutY="41.0" text="Cart">

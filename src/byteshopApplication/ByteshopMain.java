@@ -77,6 +77,15 @@ public class ByteshopMain extends Application {
 		c += b;
 		return c;
 	}
+	
+	private static int cartItems[] = new int[10];
+	
+	public static int[] item(int[] items){
+		for(int i = 0; i < 10; i++){
+			cartItems[i] += items[i];
+		}
+		return cartItems;
+	}
 
 	public static void main(String[] args) {
 		launch(args);
